@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeDomeLabs — Where Technology Evolves</title>
+  <meta name="description" content="CodeDomeLabs explores the cutting edge of 3D printing, AI insights through book reactions, and the fascinating evolution of technology. Join us on the journey." />
+  <meta name="keywords" content="CodeDomeLabs, 3D printing, AI book reactions, tech evolution, technology innovation, YouTube" />
+  <meta property="og:title" content="CodeDomeLabs — Where Technology Evolves" />
+  <meta property="og:description" content="3D Printing Projects · AI Book Reactions · Documenting How Technology Changes" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@CodeDomeLabs" />
+  <link rel="stylesheet" href="styles-v2.css" />
+  <link rel="preload" href="styles-v2.css" as="style" />
+  <link rel="preload" href="script-v2.js" as="script" />
+</head>
+<body>
+
+<!-- ============================
+     SKIP LINK
+     ============================ -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- ============================
+     NAVIGATION
+     ============================ -->
+<header class="site-header" role="banner" id="site-header">
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+
+      <a href="index-v2.html" class="nav-logo" aria-label="CodeDomeLabs Home">
+        <div class="logo-mark" aria-hidden="true">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <polygon points="18,2 34,11 34,25 18,34 2,25 2,11" fill="#002D62" stroke="#E30613" stroke-width="2"/>
+            <polygon points="18,8 28,14 28,22 18,28 8,22 8,14" fill="#E30613" opacity="0.15"/>
+            <circle cx="18" cy="18" r="4" fill="#E30613"/>
+            <line x1="18" y1="8" x2="18" y2="14" stroke="#E30613" stroke-width="1.5"/>
+            <line x1="18" y1="22" x2="18" y2="28" stroke="#E30613" stroke-width="1.5"/>
+            <line x1="8" y1="14" x2="13" y2="17" stroke="#E30613" stroke-width="1.5"/>
+            <line x1="23" y1="19" x2="28" y2="22" stroke="#E30613" stroke-width="1.5"/>
+            <line x1="8" y1="22" x2="13" y2="19" stroke="#E30613" stroke-width="1.5"/>
+            <line x1="23" y1="17" x2="28" y2="14" stroke="#E30613" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <span class="logo-text">CodeDome<span class="logo-accent">Labs</span></span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        aria-expanded="false"
+        aria-controls="navMenu"
+        aria-label="Open navigation menu"
+        type="button"
+      >
+        <span class="hamburger" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu" role="list" aria-label="Site navigation links">
+        <li role="none"><a href="#printing" class="nav-link" role="menuitem">3D Printing</a></li>
+        <li role="none"><a href="#ai-reactions" class="nav-link" role="menuitem">AI Reactions</a></li>
+        <li role="none"><a href="#timeline" class="nav-link" role="menuitem">Tech Evolution</a></li>
+        <li role="none"><a href="#featured" class="nav-link" role="menuitem">Content</a></li>
+        <li role="none">
+          <a href="#connect" class="nav-link nav-cta" role="menuitem" aria-label="Connect with CodeDomeLabs">Connect</a>
+        </li>
+        <li role="none">
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle dark mode"
+            type="button"
+            title="Toggle dark/light mode"
+          >
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+<!-- ============================
+     MAIN CONTENT
+     ============================ -->
+<main id="main-content" role="main">
+
+  <!-- ============================
+       HERO SECTION
+       ============================ -->
+  <section class="hero" aria-labelledby="hero-heading" role="region">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-grid"></div>
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      <!-- Decorative geometric shapes -->
+      <div class="hero-shape hero-shape-1"></div>
+      <div class="hero-shape hero-shape-2"></div>
+      <div class="hero-shape hero-shape-3"></div>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-badge" aria-label="Category: Tech Lab">
+        <span class="badge-dot" aria-hidden="true"></span>
+        Innovating at the Edge of Technology
+      </div>
+      <h1 id="hero-heading" class="hero-title">
+        Where <span class="hero-accent" data-text="Technology">Technology</span><br>
+        Meets <span class="hero-accent" data-text="Imagination">Imagination</span>
+      </h1>
+      <p class="hero-subtitle">
+        CodeDomeLabs explores the cutting edge of 3D printing, decodes AI through book reactions, and documents how technology shapes our world — one experiment at a time.
+      </p>
+      <div class="hero-actions" role="group" aria-label="Hero call to action buttons">
+        <a href="#printing" class="btn btn-primary" aria-label="Explore 3D printing projects">
+          Explore Projects
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="#ai-reactions" class="btn btn-secondary" aria-label="Watch AI book reactions">
+          AI Book Reactions
+        </a>
+      </div>
+      <div class="hero-stats" role="list" aria-label="CodeDomeLabs statistics">
+        <div class="hero-stat" role="listitem">
+          <strong class="stat-num" aria-label="12 3D printing projects">12+</strong>
+          <span class="stat-label">3D Projects</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="hero-stat" role="listitem">
+          <strong class="stat-num" aria-label="24 AI book reactions">24+</strong>
+          <span class="stat-label">AI Reactions</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="hero-stat" role="listitem">
+          <strong class="stat-num" aria-label="5 years of tech evolution documented">5 Yrs</strong>
+          <span class="stat-label">Tech Documented</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-label="Scroll down to explore content">
+      <div class="scroll-line" aria-hidden="true"></div>
+      <span>Scroll to Explore</span>
+    </div>
+  </section>
+
+  <!-- ============================
+       TRUST BAR
+       ============================ -->
+  <section class="trust-bar" aria-label="Platform presence">
+    <div class="container trust-bar-inner">
+      <span class="trust-label">Find us on</span>
+      <div class="trust-logos" role="list" aria-label="Social platforms">
+        <div class="trust-logo-item" role="listitem">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="platform-icon"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          <span>YouTube</span>
+        </div>
+        <div class="trust-logo-item" role="listitem">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="platform-icon"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          <span>X (Twitter)</span>
+        </div>
+        <div class="trust-logo-item" role="listitem">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="platform-icon"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          <span>GitHub</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       ABOUT / MISSION
+       ============================ -->
+  <section class="about" id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag" aria-label="Section: Our Mission">Our Mission</div>
+        <h2 id="about-heading" class="section-title">
+          A Lab Built for<br>
+          <span class="title-accent">Curious Technologists</span>
+        </h2>
+        <p class="section-subtitle">
+          CodeDomeLabs is where curiosity drives innovation. We don't just follow technology — we document it, experiment with it, and share every discovery.
+        </p>
+      </div>
+
+      <div class="pillars-grid" role="list" aria-label="CodeDomeLabs core focus areas">
+
+        <article class="pillar-card" role="listitem" aria-labelledby="pillar-printing">
+          <div class="pillar-icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="pillar-icon">
+              <rect x="8" y="28" width="32" height="12" rx="2" stroke="currentColor" stroke-width="2.5"/>
+              <rect x="14" y="12" width="20" height="18" rx="2" stroke="currentColor" stroke-width="2.5"/>
+              <line x1="24" y1="4" x2="24" y2="12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="24" cy="4" r="2" fill="currentColor"/>
+              <rect x="18" y="32" width="12" height="4" rx="1" fill="currentColor" opacity="0.3"/>
+            </svg>
+          </div>
+          <h3 id="pillar-printing" class="pillar-title">3D Printing</h3>
+          <p class="pillar-desc">
+            From rapid prototyping to functional prints, we explore every dimension of additive manufacturing — sharing projects, techniques, and hard-won lessons.
+          </p>
+          <a href="#printing" class="pillar-link" aria-label="See 3D printing projects">
+            See Projects
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </article>
+
+        <article class="pillar-card pillar-featured" role="listitem" aria-labelledby="pillar-ai">
+          <div class="pillar-tag" aria-label="Featured pillar">Featured</div>
+          <div class="pillar-icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="pillar-icon">
+              <rect x="8" y="14" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="16" cy="22" r="3" fill="currentColor" opacity="0.6"/>
+              <circle cx="24" cy="22" r="3" fill="currentColor"/>
+              <circle cx="32" cy="22" r="3" fill="currentColor" opacity="0.6"/>
+              <path d="M14 30 Q24 26 34 30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M20 8 L24 4 L28 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 id="pillar-ai" class="pillar-title">AI Book Reactions</h3>
+          <p class="pillar-desc">
+            We feed AI the most influential tech books and capture its raw reactions — from agreement to pushback — creating a unique lens on artificial intelligence.
+          </p>
+          <a href="#ai-reactions" class="pillar-link" aria-label="Watch AI book reactions">
+            Watch Reactions
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </article>
+
+        <article class="pillar-card" role="listitem" aria-labelledby="pillar-evolution">
+          <div class="pillar-icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="pillar-icon">
+              <circle cx="12" cy="36" r="4" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="24" cy="24" r="4" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="36" cy="12" r="4" stroke="currentColor" stroke-width="2.5"/>
+              <line x1="15.5" y1="32.5" x2="20.5" y2="27.5" stroke="currentColor" stroke-width="2" stroke-dasharray="2 2"/>
+              <line x1="27.5" y1="20.5" x2="32.5" y2="15.5" stroke="currentColor" stroke-width="2" stroke-dasharray="2 2"/>
+              <path d="M8 20 Q16 8 24 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+            </svg>
+          </div>
+          <h3 id="pillar-evolution" class="pillar-title">Tech Evolution</h3>
+          <p class="pillar-desc">
+            Technology doesn't change overnight. We document the journey — before and after, old and new — creating a living archive of how tools and ideas transform over time.
+          </p>
+          <a href="#timeline" class="pillar-link" aria-label="Explore technology evolution timeline">
+            View Timeline
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       3D PRINTING SHOWCASE
+       ============================ -->
+  <section class="printing" id="printing" aria-labelledby="printing-heading">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag" aria-label="Section: 3D Printing Projects">3D Printing</div>
+        <h2 id="printing-heading" class="section-title">
+          From Concept to<br>
+          <span class="title-accent">Physical Reality</span>
+        </h2>
+        <p class="section-subtitle">
+          Every project starts with an idea. These are the builds that pushed our limits — and taught us the most.
+        </p>
+      </div>
+
+      <div class="projects-grid" role="list" aria-label="3D printing project showcase">
+
+        <article class="project-card project-card-featured" role="listitem" aria-labelledby="project-1">
+          <div class="project-image" aria-hidden="true">
+            <div class="project-image-placeholder">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="15" y="40" width="50" height="25" rx="2" stroke="white" stroke-width="2" opacity="0.6"/>
+                <polygon points="40,10 65,40 15,40" stroke="white" stroke-width="2" fill="none" opacity="0.8"/>
+                <line x1="40" y1="10" x2="40" y2="40" stroke="white" stroke-width="1.5" opacity="0.4"/>
+                <line x1="15" y1="40" x2="65" y2="40" stroke="white" stroke-width="1.5" opacity="0.4"/>
+              </svg>
+            </div>
+            <div class="project-label" aria-label="Project category: Mechanical">Mechanical</div>
+          </div>
+          <div class="project-content">
+            <h3 id="project-1" class="project-title">Articulated Robotic Arm</h3>
+            <p class="project-desc">A 6-DOF robotic arm printed in PLA+ with embedded servo mounting points. Achieved ±0.5mm positional accuracy after calibration tuning.</p>
+            <div class="project-meta" aria-label="Project details">
+              <span class="project-tag" aria-label="Material: PLA+">PLA+</span>
+              <span class="project-tag" aria-label="Print time: 48 hours">48h Print</span>
+              <span class="project-tag" aria-label="Category: Robotics">Robotics</span>
+            </div>
+            <a href="#" class="project-link" aria-label="Read more about Articulated Robotic Arm">
+              View Project Details
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card" role="listitem" aria-labelledby="project-2">
+          <div class="project-image project-image-sm" aria-hidden="true">
+            <div class="project-image-placeholder">
+              <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="10" y="20" width="40" height="30" rx="3" stroke="white" stroke-width="2" opacity="0.7"/>
+                <rect x="18" y="12" width="24" height="12" rx="2" stroke="white" stroke-width="2" opacity="0.5"/>
+                <line x1="25" y1="35" x2="35" y2="35" stroke="white" stroke-width="2" opacity="0.6"/>
+              </svg>
+            </div>
+            <div class="project-label" aria-label="Project category: Enclosure">Enclosure</div>
+          </div>
+          <div class="project-content">
+            <h3 id="project-2" class="project-title">Raspberry Pi Control Hub</h3>
+            <p class="project-desc">Custom enclosure with active cooling, cable management channels, and modular expansion bay for GPIO peripherals.</p>
+            <div class="project-meta" aria-label="Project details">
+              <span class="project-tag" aria-label="Material: PETG">PETG</span>
+              <span class="project-tag" aria-label="Category: Electronics">Electronics</span>
+            </div>
+            <a href="#" class="project-link" aria-label="Read more about Raspberry Pi Control Hub">
+              View Details
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card" role="listitem" aria-labelledby="project-3">
+          <div class="project-image project-image-sm" aria-hidden="true">
+            <div class="project-image-placeholder">
+              <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="30" cy="30" r="18" stroke="white" stroke-width="2" opacity="0.7"/>
+                <circle cx="30" cy="30" r="10" stroke="white" stroke-width="2" opacity="0.5"/>
+                <line x1="30" y1="12" x2="30" y2="48" stroke="white" stroke-width="1.5" opacity="0.4"/>
+                <line x1="12" y1="30" x2="48" y2="30" stroke="white" stroke-width="1.5" opacity="0.4"/>
+              </svg>
+            </div>
+            <div class="project-label" aria-label="Project category: Functional">Functional</div>
+          </div>
+          <div class="project-content">
+            <h3 id="project-3" class="project-title">Precision Lens Adapter</h3>
+            <p class="project-desc">Optical-quality lens mount adapter between vintage 35mm lenses and modern mirrorless cameras. Sub-millimeter tolerances achieved.</p>
+            <div class="project-meta" aria-label="Project details">
+              <span class="project-tag" aria-label="Material: Resin">Resin</span>
+              <span class="project-tag" aria-label="Category: Photography">Photography</span>
+            </div>
+            <a href="#" class="project-link" aria-label="Read more about Precision Lens Adapter">
+              View Details
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card" role="listitem" aria-labelledby="project-4">
+          <div class="project-image project-image-sm" aria-hidden="true">
+            <div class="project-image-placeholder">
+              <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <polygon points="30,8 52,20 52,44 30,56 8,44 8,20" stroke="white" stroke-width="2" fill="none" opacity="0.8"/>
+                <polygon points="30,18 42,25 42,39 30,46 18,39 18,25" stroke="white" stroke-width="1.5" fill="none" opacity="0.5"/>
+              </svg>
+            </div>
+            <div class="project-label" aria-label="Project category: Tool">Tool</div>
+          </div>
+          <div class="project-content">
+            <h3 id="project-4" class="project-title">Filament Dry Box System</h3>
+            <p class="project-desc">Multi-spool moisture-controlled dry box keeping filament at optimal humidity. Reduced failed prints by 73% in high-humidity environments.</p>
+            <div class="project-meta" aria-label="Project details">
+              <span class="project-tag" aria-label="Material: ASA">ASA</span>
+              <span class="project-tag" aria-label="Category: Tooling">Tooling</span>
+            </div>
+            <a href="#" class="project-link" aria-label="Read more about Filament Dry Box System">
+              View Details
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="section-cta" aria-label="See all 3D printing projects">
+        <a href="#" class="btn btn-outline" aria-label="View all 3D printing projects on CodeDomeLabs">
+          View All Projects
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================
+       AI BOOK REACTIONS
+       ============================ -->
+  <section class="ai-reactions" id="ai-reactions" aria-labelledby="reactions-heading">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag section-tag-white" aria-label="Section: AI Book Reactions">AI Reactions</div>
+        <h2 id="reactions-heading" class="section-title text-white">
+          What Does AI Think<br>
+          <span class="title-accent-light">About Classic Tech Books?</span>
+        </h2>
+        <p class="section-subtitle text-white-muted">
+          We put AI through the classics — the books that shaped how we think about technology — and captured its authentic reactions. Sometimes agreement. Sometimes pushback. Always illuminating.
+        </p>
+      </div>
+
+      <!-- Featured Reaction -->
+      <div class="reaction-featured" aria-labelledby="featured-reaction-heading" role="article">
+        <div class="reaction-featured-badge" aria-label="Label: Featured Reaction">⭐ Featured Reaction</div>
+        <div class="reaction-featured-inner">
+          <div class="reaction-book" aria-hidden="true">
+            <div class="book-cover" aria-label="Book cover placeholder">
+              <div class="book-spine"></div>
+              <div class="book-title-mock">
+                <span>The</span>
+                <span>Singularity</span>
+                <span>is Near</span>
+              </div>
+            </div>
+          </div>
+          <div class="reaction-content">
+            <div class="reaction-meta" aria-label="Reaction details">
+              <span class="reaction-author">Ray Kurzweil</span>
+              <span class="reaction-divider" aria-hidden="true">·</span>
+              <span class="reaction-year">2005</span>
+              <span class="reaction-divider" aria-hidden="true">·</span>
+              <span class="reaction-rating" aria-label="AI sentiment: Fascinated">🤔 Fascinated</span>
+            </div>
+            <h3 id="featured-reaction-heading" class="reaction-title">The Singularity Is Near</h3>
+            <blockquote class="reaction-quote" cite="#">
+              "Kurzweil's exponential growth thesis is compelling — but the hardest question isn't whether the singularity can happen, it's whether 'intelligence' scales the way he assumes it does. The book asks us to extrapolate linearly from a non-linear process."
+            </blockquote>
+            <p class="reaction-summary">
+              AI engages deeply with Kurzweil's thesis, finding surprising agreement on exponential growth patterns while raising pointed questions about the definition of consciousness and whether intelligence transfer preserves identity.
+            </p>
+            <a href="#" class="btn btn-primary btn-sm" aria-label="Read full AI reaction to The Singularity Is Near">
+              Read Full Reaction
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reactions Grid -->
+      <div class="reactions-grid" role="list" aria-label="AI book reactions">
+
+        <article class="reaction-card" role="listitem" aria-labelledby="reaction-2">
+          <div class="reaction-card-header">
+            <div class="reaction-book-mini" aria-hidden="true">
+              <span>📖</span>
+            </div>
+            <div class="reaction-sentiment" aria-label="AI sentiment: Agrees">
+              <span class="sentiment-dot sentiment-agree" aria-hidden="true"></span>
+              Agrees
+            </div>
+          </div>
+          <h4 id="reaction-2" class="reaction-card-title">The Innovator's Dilemma</h4>
+          <p class="reaction-card-author">Clayton Christensen</p>
+          <p class="reaction-card-excerpt">AI finds Christensen's disruption framework remarkably predictive, noting that the pattern holds across hardware, software, and even AI model generations themselves.</p>
+          <a href="#" class="reaction-card-link" aria-label="Read full AI reaction to The Innovator's Dilemma">Read Reaction →</a>
+        </article>
+
+        <article class="reaction-card" role="listitem" aria-labelledby="reaction-3">
+          <div class="reaction-card-header">
+            <div class="reaction-book-mini" aria-hidden="true">
+              <span>📖</span>
+            </div>
+            <div class="reaction-sentiment" aria-label="AI sentiment: Pushes Back">
+              <span class="sentiment-dot sentiment-pushback" aria-hidden="true"></span>
+              Pushes Back
+            </div>
+          </div>
+          <h4 id="reaction-3" class="reaction-card-title">Life 3.0</h4>
+          <p class="reaction-card-author">Max Tegmark</p>
+          <p class="reaction-card-excerpt">AI challenges several of Tegmark's assumptions about value alignment, arguing that the problem is less about programming values and more about emergent goal structures.</p>
+          <a href="#" class="reaction-card-link" aria-label="Read full AI reaction to Life 3.0">Read Reaction →</a>
+        </article>
+
+        <article class="reaction-card" role="listitem" aria-labelledby="reaction-4">
+          <div class="reaction-card-header">
+            <div class="reaction-book-mini" aria-hidden="true">
+              <span>📖</span>
+            </div>
+            <div class="reaction-sentiment" aria-label="AI sentiment: Nuanced">
+              <span class="sentiment-dot sentiment-nuanced" aria-hidden="true"></span>
+              Nuanced
+            </div>
+          </div>
+          <h4 id="reaction-4" class="reaction-card-title">Zero to One</h4>
+          <p class="reaction-card-author">Peter Thiel</p>
+          <p class="reaction-card-excerpt">A complex reaction: AI appreciates Thiel's contrarian framing but finds the monopoly thesis increasingly strained in a world where network effects compound faster than moats.</p>
+          <a href="#" class="reaction-card-link" aria-label="Read full AI reaction to Zero to One">Read Reaction →</a>
+        </article>
+
+        <article class="reaction-card" role="listitem" aria-labelledby="reaction-5">
+          <div class="reaction-card-header">
+            <div class="reaction-book-mini" aria-hidden="true">
+              <span>📖</span>
+            </div>
+            <div class="reaction-sentiment" aria-label="AI sentiment: Agrees">
+              <span class="sentiment-dot sentiment-agree" aria-hidden="true"></span>
+              Agrees
+            </div>
+          </div>
+          <h4 id="reaction-5" class="reaction-card-title">The Pragmatic Programmer</h4>
+          <p class="reaction-card-author">Hunt & Thomas</p>
+          <p class="reaction-card-excerpt">Strong agreement across the board. AI notes that every principle in this book applies to how AI systems should be built, deployed, and maintained — especially "don't repeat yourself."</p>
+          <a href="#" class="reaction-card-link" aria-label="Read full AI reaction to The Pragmatic Programmer">Read Reaction →</a>
+        </article>
+
+        <article class="reaction-card" role="listitem" aria-labelledby="reaction-6">
+          <div class="reaction-card-header">
+            <div class="reaction-book-mini" aria-hidden="true">
+              <span>📖</span>
+            </div>
+            <div class="reaction-sentiment" aria-label="AI sentiment: Fascinated">
+              <span class="sentiment-dot sentiment-fascinated" aria-hidden="true"></span>
+              Fascinated
+            </div>
+          </div>
+          <h4 id="reaction-6" class="reaction-card-title">Gödel, Escher, Bach</h4>
+          <p class="reaction-card-author">Douglas Hofstadter</p>
+          <p class="reaction-card-excerpt">A deeply personal reaction. AI describes engaging with this book as "reading about myself" — the strange loops, self-reference, and emergent consciousness themes hit unusually close to home.</p>
+          <a href="#" class="reaction-card-link" aria-label="Read full AI reaction to Gödel, Escher, Bach">Read Reaction →</a>
+        </article>
+
+        <article class="reaction-card reaction-card-cta" role="listitem" aria-label="See all AI book reactions">
+          <div class="reaction-cta-content">
+            <span class="reaction-cta-icon" aria-hidden="true">📚</span>
+            <h4 class="reaction-cta-title">24+ Reactions</h4>
+            <p class="reaction-cta-text">Every major tech book, dissected by AI.</p>
+            <a href="#" class="btn btn-primary btn-sm" aria-label="Browse all AI book reactions">Browse All</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       TECH EVOLUTION TIMELINE
+       ============================ -->
+  <section class="timeline" id="timeline" aria-labelledby="timeline-heading">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag" aria-label="Section: Technology Evolution">Tech Evolution</div>
+        <h2 id="timeline-heading" class="section-title">
+          How Technology<br>
+          <span class="title-accent">Transformed</span>
+        </h2>
+        <p class="section-subtitle">
+          Technology doesn't change in a straight line — it lurches, plateaus, and leaps. We document the defining moments that changed how we work, create, and think.
+        </p>
+      </div>
+
+      <div class="timeline-container" role="list" aria-label="Technology evolution timeline">
+
+        <article class="timeline-entry" role="listitem" aria-labelledby="timeline-1" data-year="2024">
+          <div class="timeline-marker" aria-hidden="true">
+            <div class="marker-dot"></div>
+            <div class="marker-year" aria-label="Year 2024">2024</div>
+          </div>
+          <div class="timeline-card" aria-expanded="false">
+            <button
+              class="timeline-toggle"
+              aria-expanded="false"
+              aria-controls="timeline-body-1"
+              aria-label="Expand 2024: AI Enters the Hardware Loop entry"
+              type="button"
+            >
+              <div class="timeline-card-header">
+                <div class="timeline-category" aria-label="Category: AI Integration">AI Integration</div>
+                <h3 id="timeline-1" class="timeline-title">AI Enters the Hardware Loop</h3>
+                <p class="timeline-summary">AI-assisted slicing software begins suggesting print parameters dynamically. The line between software intelligence and physical manufacturing blurs.</p>
+              </div>
+              <svg class="timeline-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="timeline-body" id="timeline-body-1" hidden>
+              <div class="before-after" aria-label="Before and after comparison">
+                <div class="before" aria-labelledby="before-label-1">
+                  <div id="before-label-1" class="before-after-label">Before</div>
+                  <p>Manual parameter tuning: hours of calibration, dozens of failed prints, and tribal knowledge passed through forums.</p>
+                </div>
+                <div class="before-after-arrow" aria-hidden="true">→</div>
+                <div class="after" aria-labelledby="after-label-1">
+                  <div id="after-label-1" class="before-after-label">After</div>
+                  <p>AI-optimized settings per material and geometry. First-print success rates jumped from ~60% to 90%+ for experienced users.</p>
+                </div>
+              </div>
+              <p class="timeline-detail">
+                The integration of machine learning into slicing software represents a fundamental shift: the printer is no longer just a physical device executing G-code — it's part of an intelligent system that learns from every layer. CodeDomeLabs documented 6 months of AI-assisted prints, logging success rates, material usage, and parameter evolution.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-entry timeline-right" role="listitem" aria-labelledby="timeline-2" data-year="2022">
+          <div class="timeline-marker" aria-hidden="true">
+            <div class="marker-dot"></div>
+            <div class="marker-year" aria-label="Year 2022">2022</div>
+          </div>
+          <div class="timeline-card">
+            <button
+              class="timeline-toggle"
+              aria-expanded="false"
+              aria-controls="timeline-body-2"
+              aria-label="Expand 2022: Multi-Material Printing Becomes Mainstream entry"
+              type="button"
+            >
+              <div class="timeline-card-header">
+                <div class="timeline-category" aria-label="Category: Hardware">Hardware</div>
+                <h3 id="timeline-2" class="timeline-title">Multi-Material Becomes Mainstream</h3>
+                <p class="timeline-summary">What once required a $50,000 industrial machine arrives on desktop. Multi-extrusion printing democratizes complex, functional parts.</p>
+              </div>
+              <svg class="timeline-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="timeline-body" id="timeline-body-2" hidden>
+              <div class="before-after" aria-label="Before and after comparison">
+                <div class="before" aria-labelledby="before-label-2">
+                  <div id="before-label-2" class="before-after-label">Before</div>
+                  <p>Single material, single color. Functional multi-material parts required assembly of separate prints, adding complexity and failure points.</p>
+                </div>
+                <div class="before-after-arrow" aria-hidden="true">→</div>
+                <div class="after" aria-labelledby="after-label-2">
+                  <div id="after-label-2" class="before-after-label">After</div>
+                  <p>Rigid + flexible in a single print. Functional hinges, gaskets, and grip surfaces — no assembly required.</p>
+                </div>
+              </div>
+              <p class="timeline-detail">
+                Our lab documented the transition to multi-material printing across 18 months, tracking how the technology evolved from unreliable curiosity to production-quality capability. The key inflection: purge tower optimization and improved filament switching reduced material waste from 30% to under 8%.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-entry" role="listitem" aria-labelledby="timeline-3" data-year="2020">
+          <div class="timeline-marker" aria-hidden="true">
+            <div class="marker-dot"></div>
+            <div class="marker-year" aria-label="Year 2020">2020</div>
+          </div>
+          <div class="timeline-card">
+            <button
+              class="timeline-toggle"
+              aria-expanded="false"
+              aria-controls="timeline-body-3"
+              aria-label="Expand 2020: The Open-Source Hardware Revolution entry"
+              type="button"
+            >
+              <div class="timeline-card-header">
+                <div class="timeline-category" aria-label="Category: Ecosystem">Ecosystem</div>
+                <h3 id="timeline-3" class="timeline-title">The Open-Source Hardware Revolution</h3>
+                <p class="timeline-summary">Voron, Rat Rig, and community-designed printers prove that collaborative open design can outpace proprietary development.</p>
+              </div>
+              <svg class="timeline-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="timeline-body" id="timeline-body-3" hidden>
+              <div class="before-after" aria-label="Before and after comparison">
+                <div class="before" aria-labelledby="before-label-3">
+                  <div id="before-label-3" class="before-after-label">Before</div>
+                  <p>Proprietary designs with locked ecosystems. Upgrades meant buying new machines. Community modifications were unsupported.</p>
+                </div>
+                <div class="before-after-arrow" aria-hidden="true">→</div>
+                <div class="after" aria-labelledby="after-label-3">
+                  <div id="after-label-3" class="before-after-label">After</div>
+                  <p>Fully open designs. Community modifications became official upgrades. Users became co-developers of the machines they depended on.</p>
+                </div>
+              </div>
+              <p class="timeline-detail">
+                The open-source hardware movement fundamentally changed who drives 3D printing innovation. CodeDomeLabs built a Voron 2.4 from scratch and documented every choice — from frame to firmware — creating a reference guide used by over 2,000 builders.
+              </p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="section-cta" aria-label="See full technology evolution archive">
+        <a href="#" class="btn btn-outline" aria-label="Explore the full CodeDomeLabs tech evolution archive">
+          Explore Full Timeline
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================
+       FEATURED CONTENT
+       ============================ -->
+  <section class="featured" id="featured" aria-labelledby="featured-heading">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag section-tag-white" aria-label="Section: Featured Content">Latest Content</div>
+        <h2 id="featured-heading" class="section-title text-white">
+          Fresh from the<br>
+          <span class="title-accent-light">Lab Bench</span>
+        </h2>
+        <p class="section-subtitle text-white-muted">
+          New videos, write-ups, and experiments — delivered on a consistent cadence. Never miss an experiment.
+        </p>
+      </div>
+
+      <div class="videos-grid" role="list" aria-label="Featured videos and content">
+
+        <article class="video-card video-card-featured" role="listitem" aria-labelledby="video-1">
+          <div class="video-thumbnail" aria-hidden="true">
+            <div class="video-placeholder">
+              <div class="play-btn" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="white" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+            </div>
+            <div class="video-duration" aria-label="Video duration: 24 minutes 18 seconds">24:18</div>
+          </div>
+          <div class="video-content">
+            <div class="video-meta">
+              <span class="video-category" aria-label="Category: AI Reaction">AI Reaction</span>
+              <span class="video-date" aria-label="Published: 3 days ago">3 days ago</span>
+            </div>
+            <h3 id="video-1" class="video-title">AI Reacts to "The Pragmatic Programmer" — Chapter by Chapter</h3>
+            <p class="video-desc">We fed Claude every chapter of The Pragmatic Programmer and asked it to grade the advice as still-relevant, outdated, or needs-updating in 2024. The results are surprising.</p>
+            <a href="#" class="btn btn-primary btn-sm" aria-label="Watch AI reacts to The Pragmatic Programmer">Watch Now</a>
+          </div>
+        </article>
+
+        <article class="video-card" role="listitem" aria-labelledby="video-2">
+          <div class="video-thumbnail video-thumbnail-sm" aria-hidden="true">
+            <div class="video-placeholder">
+              <div class="play-btn play-btn-sm" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="white" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+            </div>
+            <div class="video-duration" aria-label="Video duration: 18 minutes 42 seconds">18:42</div>
+          </div>
+          <div class="video-content">
+            <div class="video-meta">
+              <span class="video-category video-category-print" aria-label="Category: 3D Print">3D Print</span>
+              <span class="video-date" aria-label="Published: 1 week ago">1 week ago</span>
+            </div>
+            <h3 id="video-2" class="video-title">Building a Functional Robotic Gripper: Design to Print</h3>
+            <p class="video-desc">Full build log of a 4-finger gripper with compliant mechanism fingers — no servos needed.</p>
+            <a href="#" class="video-link" aria-label="Watch Building a Functional Robotic Gripper">Watch →</a>
+          </div>
+        </article>
+
+        <article class="video-card" role="listitem" aria-labelledby="video-3">
+          <div class="video-thumbnail video-thumbnail-sm" aria-hidden="true">
+            <div class="video-placeholder">
+              <div class="play-btn play-btn-sm" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="white" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+            </div>
+            <div class="video-duration" aria-label="Video duration: 31 minutes 5 seconds">31:05</div>
+          </div>
+          <div class="video-content">
+            <div class="video-meta">
+              <span class="video-category" aria-label="Category: AI Reaction">AI Reaction</span>
+              <span class="video-date" aria-label="Published: 2 weeks ago">2 weeks ago</span>
+            </div>
+            <h3 id="video-3" class="video-title">Does AI Think Gödel, Escher, Bach Is About AI?</h3>
+            <p class="video-desc">Hofstadter's masterpiece meets the thing it arguably predicted. This one gets philosophical.</p>
+            <a href="#" class="video-link" aria-label="Watch Does AI Think Gödel Escher Bach Is About AI">Watch →</a>
+          </div>
+        </article>
+
+        <article class="video-card" role="listitem" aria-labelledby="video-4">
+          <div class="video-thumbnail video-thumbnail-sm" aria-hidden="true">
+            <div class="video-placeholder">
+              <div class="play-btn play-btn-sm" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="white" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+            </div>
+            <div class="video-duration" aria-label="Video duration: 14 minutes 55 seconds">14:55</div>
+          </div>
+          <div class="video-content">
+            <div class="video-meta">
+              <span class="video-category video-category-evolution" aria-label="Category: Tech Evolution">Tech Evolution</span>
+              <span class="video-date" aria-label="Published: 3 weeks ago">3 weeks ago</span>
+            </div>
+            <h3 id="video-4" class="video-title">5 Years of Printer Evolution: What Actually Changed?</h3>
+            <p class="video-desc">Side-by-side comparison of prints made 5 years apart on equivalent-priced machines.</p>
+            <a href="#" class="video-link" aria-label="Watch 5 Years of Printer Evolution">Watch →</a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="section-cta" aria-label="See all content on YouTube">
+        <a href="https://youtube.com/@CodeDomeLabs" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer" aria-label="Visit CodeDomeLabs YouTube channel (opens in new tab)">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="btn-icon"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          Subscribe on YouTube
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================
+       CONNECT / CTA
+       ============================ -->
+  <section class="connect" id="connect" aria-labelledby="connect-heading">
+    <div class="container connect-inner">
+      <div class="connect-content">
+        <div class="section-tag section-tag-red" aria-label="Section: Connect">Join the Lab</div>
+        <h2 id="connect-heading" class="connect-title">
+          Follow Every<br>
+          <span class="connect-accent">Experiment</span>
+        </h2>
+        <p class="connect-subtitle">
+          Subscribe on YouTube for full experiments. Follow on X for real-time reactions and behind-the-scenes. Reach out if you want to collaborate — we love interesting projects.
+        </p>
+        <div class="connect-actions" role="group" aria-label="Connect with CodeDomeLabs on social platforms">
+          <a href="https://youtube.com/@CodeDomeLabs" class="connect-btn connect-btn-youtube" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to CodeDomeLabs on YouTube (opens in new tab)">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            Subscribe on YouTube
+          </a>
+          <a href="https://x.com/CodeDomeLabs" class="connect-btn connect-btn-x" target="_blank" rel="noopener noreferrer" aria-label="Follow CodeDomeLabs on X Twitter (opens in new tab)">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            Follow on X
+          </a>
+          <a href="mailto:hello@codedomelabs.com" class="connect-btn connect-btn-email" aria-label="Email CodeDomeLabs to collaborate">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Collaborate
+          </a>
+        </div>
+      </div>
+      <div class="connect-visual" aria-hidden="true">
+        <div class="connect-hexgrid">
+          <div class="hex hex-1"></div>
+          <div class="hex hex-2"></div>
+          <div class="hex hex-3"></div>
+          <div class="hex hex-4"></div>
+          <div class="hex hex-5"></div>
+          <div class="hex hex-6"></div>
+          <div class="hex hex-center">
+            <svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
+              <polygon points="18,2 34,11 34,25 18,34 2,25 2,11" fill="#002D62" stroke="#E30613" stroke-width="1.5"/>
+              <circle cx="18" cy="18" r="4" fill="#E30613"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================
+     FOOTER
+     ============================ -->
+<footer class="site-footer" role="contentinfo" aria-label="CodeDomeLabs site footer">
+  <div class="container footer-inner">
+
+    <div class="footer-brand">
+
+      <a href="index-v2.html" class="footer-logo" aria-label="CodeDomeLabs Home">
+        <div class="logo-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+            <polygon points="18,2 34,11 34,25 18,34 2,25 2,11" fill="#002D62" stroke="#E30613" stroke-width="2"/>
+            <circle cx="18" cy="18" r="4" fill="#E30613"/>
+          </svg>
+        </div>
+        <span class="logo-text">CodeDome<span class="logo-accent">Labs</span></span>
+      </a>
+      <p class="footer-tagline">Exploring the frontier of technology — one experiment at a time.</p>
+      <div class="footer-social" role="list" aria-label="CodeDomeLabs social media links">
+        <a href="https://youtube.com/@CodeDomeLabs" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="CodeDomeLabs YouTube channel (opens in new tab)" role="listitem">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <a href="https://x.com/CodeDomeLabs" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="CodeDomeLabs X Twitter profile (opens in new tab)" role="listitem">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="https://github.com/CodeDomeLabs" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="CodeDomeLabs GitHub profile (opens in new tab)" role="listitem">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <nav class="footer-nav" aria-label="Footer site navigation">
+      <div class="footer-nav-col">
+        <h4 class="footer-nav-heading">Explore</h4>
+        <ul role="list" aria-label="Explore links">
+          <li><a href="#printing" class="footer-link">3D Printing</a></li>
+          <li><a href="#ai-reactions" class="footer-link">AI Book Reactions</a></li>
+          <li><a href="#timeline" class="footer-link">Tech Evolution</a></li>
+          <li><a href="#featured" class="footer-link">Featured Content</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav-col">
+        <h4 class="footer-nav-heading">Connect</h4>
+        <ul role="list" aria-label="Connect links">
+          <li><a href="https://youtube.com/@CodeDomeLabs" class="footer-link" target="_blank" rel="noopener noreferrer" aria-label="CodeDomeLabs YouTube (opens in new tab)">YouTube</a></li>
+          <li><a href="https://x.com/CodeDomeLabs" class="footer-link" target="_blank" rel="noopener noreferrer" aria-label="CodeDomeLabs on X (opens in new tab)">X (Twitter)</a></li>
+          <li><a href="https://github.com/CodeDomeLabs" class="footer-link" target="_blank" rel="noopener noreferrer" aria-label="CodeDomeLabs GitHub (opens in new tab)">GitHub</a></li>
+          <li><a href="mailto:hello@codedomelabs.com" class="footer-link" aria-label="Email CodeDomeLabs">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+
+  <div class="footer-bottom" role="contentinfo" aria-label="Footer copyright and legal">
+    <div class="container footer-bottom-inner">
+      <p class="footer-copyright" aria-label="Copyright 2024 CodeDomeLabs, all rights reserved">
+        &copy; 2024 CodeDomeLabs. All rights reserved.
+      </p>
+      <div class="footer-bottom-links" role="list" aria-label="Legal links">
+        <a href="#" class="footer-bottom-link" role="listitem">Privacy Policy</a>
+        <a href="#" class="footer-bottom-link" role="listitem">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script-v2.js" defer></script>
+</body>
+</html>
